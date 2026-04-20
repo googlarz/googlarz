@@ -29,8 +29,10 @@ If a project lives here, it solves something concrete and earns its place by bei
 | [finance-assistant-skill](https://github.com/googlarz/finance-assistant-skill) | Full personal finance stack — budgets, investments, taxes, net worth, bank import. Privacy-first: everything stays local. |
 | [finance-assistant-locales](https://github.com/googlarz/finance-assistant-locales) | Country-specific tax rules and social contributions that extend Finance Assistant beyond Germany. |
 | [health-skill](https://github.com/googlarz/health-skill) | Turns a folder into a persistent health workspace — records, labs, appointments, follow-ups, for one person or a whole family. |
+| [fashion-skill](https://github.com/googlarz/fashion-skill) | Personal AI stylist — wardrobe inventory, outfit recommendations, pre-purchase checks. |
 | [math-skill](https://github.com/googlarz/math-skill) | Solves math problems with step-by-step reasoning and built-in answer verification. |
-| [deterministic-workflow-builder-skill](https://github.com/googlarz/deterministic-workflow-builder-skill) | Converts vague instructions into typed, auditable workflows with approval gates, contracts, and rollback. |
+| [claude-assistant](https://github.com/googlarz/claude-assistant) | Writes context-aware Google Calendar entries from conversation transcripts — conflict detection, free slots, prep blocks. |
+| [deterministic-workflow-builder-skill](https://github.com/googlarz/deterministic-workflow-builder-skill) | Deterministic workflow execution — fixed DAG, typed steps, approval gates, audit trail. Runs browser and desktop automation with no API required. Imports n8n workflows. |
 
 **MCP Servers** — real services wired into AI assistants
 
@@ -43,8 +45,9 @@ If a project lives here, it solves something concrete and earns its place by bei
 | | |
 |---|---|
 | [scope](https://github.com/googlarz/scope) | Structural code intelligence for LLM agents — understand the architecture before touching anything, finish in fewer turns. |
+| [agent-skills](https://github.com/googlarz/agent-skills) | Production-grade engineering workflow skills for AI coding agents — spec, implement, review, ship. |
 | [proactive-claw](https://github.com/googlarz/proactive-claw) | Learns your work patterns and surfaces prep blocks and follow-ups before you think to ask. |
-| [paperclip](https://github.com/googlarz/paperclip) | Open-source orchestration for AI-run companies — if OpenClaw is an employee, Paperclip is the company. |
+| [stapler](https://github.com/googlarz/stapler) | Self-hosted AI org platform — semantic memory, cross-agent peer search, multi-adapter (Claude, Ollama, Gemini, Codex). |
 
 ## Notes
 - Built from personal use-cases
