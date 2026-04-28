@@ -39,6 +39,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 | | |
 |---|---|
 | [proton-mail-bridge-mcp](https://github.com/googlarz/proton-mail-bridge-mcp) | Full Proton Mail in Claude — read, draft, send, sync — through Proton Bridge, no cloud relay. |
+| [suunto-mcp](https://github.com/googlarz/suunto-mcp) | Suunto watch data in Claude — workouts, recovery, sleep, and HR streams wired straight into conversations. |
 
 **Agents & Infrastructure**
 
@@ -48,6 +49,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 | [agent-skills](https://github.com/googlarz/agent-skills) | Production-grade engineering workflow skills for AI coding agents — spec, implement, review, ship. |
 | [proactive-claw](https://github.com/googlarz/proactive-claw) | Learns your work patterns and surfaces prep blocks and follow-ups before you think to ask. |
 | [stapler](https://github.com/googlarz/stapler) | Self-hosted AI org platform — semantic memory, cross-agent peer search, multi-adapter (Claude, Ollama, Gemini, Codex). |
+| [claude-code-commands](https://github.com/googlarz/claude-code-commands) | Complete reference of all Claude Code slash commands, extracted straight from the binary. |
 
 ## Notes
 - Built from personal use-cases
