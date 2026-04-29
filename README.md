@@ -26,7 +26,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 
 | | |
 |---|---|
-| [finance-assistant-skill](https://github.com/googlarz/finance-assistant-skill) | Full personal finance stack — budgets, investments, taxes, net worth, bank import. Privacy-first: everything stays local. |
+| [finance-assistant](https://github.com/googlarz/finance-assistant) | Full personal finance stack — budgets, investments, taxes, net worth, bank import. Privacy-first: everything stays local. |
 | [finance-assistant-locales](https://github.com/googlarz/finance-assistant-locales) | Country-specific tax rules and social contributions that extend Finance Assistant beyond Germany. |
 | [health-skill](https://github.com/googlarz/health-skill) | Turns a folder into a persistent health workspace — records, labs, appointments, follow-ups, for one person or a whole family. |
 | [fashion-skill](https://github.com/googlarz/fashion-skill) | Personal AI stylist — wardrobe inventory, outfit recommendations, pre-purchase checks. |
