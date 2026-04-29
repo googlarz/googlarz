@@ -34,6 +34,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 | [claude-assistant](https://github.com/googlarz/claude-assistant) | Writes context-aware Google Calendar entries from conversation transcripts — conflict detection, free slots, prep blocks. |
 | [deterministic-workflow-builder-skill](https://github.com/googlarz/deterministic-workflow-builder-skill) | Deterministic workflow execution — fixed DAG, typed steps, approval gates, audit trail. Runs browser and desktop automation with no API required. Imports n8n workflows. |
 | [deep-context](https://github.com/googlarz/deep-context) | Builds verified context packs from a folder — citations, contradiction detection, self-test calibration, and a one-page actionable digest. |
+| [logic-audit](https://github.com/googlarz/logic-audit) | Adversarial cross-artifact logic and consistency audit — finds contradictions, broken timelines, and unsupported claims across any set of files. |
 
 **MCP Servers** — real services wired into AI assistants
 
