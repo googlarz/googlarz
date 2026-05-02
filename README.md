@@ -41,7 +41,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 | | |
 |---|---|
 | [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) | Local-first Proton Mail for Claude Desktop and terminal — read, search, draft, send, sync, manage, all through Proton Bridge. Never through a cloud relay. CLI + MCP, same backend. |
-| [suunto-mcp](https://github.com/googlarz/suunto-mcp) | Talk to your Suunto watch through Claude — runs, hikes, sleep, HR drift, route maps, weekly training summaries. Handles OAuth refresh and FIT-file decoding so you don't have to. _(Awaiting API approval.)_ |
+| [suunto-mcp](https://github.com/googlarz/suunto-mcp) | Talk to your Suunto watch through Claude — runs, hikes, sleep, HR drift, route maps, weekly training summaries. Handles OAuth refresh and FIT-file decoding so you don't have to. CLI + MCP, same backend. _(Awaiting API approval.)_ |
 | [vinted-client](https://github.com/googlarz/vinted-client) | CLI and MCP server for the Vinted marketplace — search listings, fetch items and sellers, compare prices across countries, pull trending feeds. Stealth-Chromium fallback for full fidelity. |
 
 **Agents & Infrastructure**
