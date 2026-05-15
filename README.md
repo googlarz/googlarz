@@ -26,6 +26,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 
 | | |
 |---|---|
+| [vibe-safe](https://github.com/googlarz/vibe-safe) | Active session guardian for non-technical contributors (PMs, designers) shipping AI-assisted code in shared codebases. Reads actual git state — every flag cites file:line. Catches credentials outside your diff, quality gate weakening, main-branch commits, and Danger Zone files. Pre-commit hook runs without Claude. |
 | [collaborate](https://github.com/googlarz/collaborate) | Multi-person document writing skill for Claude — each contributor takes a turn, Claude briefs the next person on what changed, what was tried, and what they need to focus on. Parallel section ownership, structured critique, round robin review. Notifications via Signal or Slack. |
 | [finance-assistant](https://github.com/googlarz/finance-assistant) | Personal finance copilot — budgets, investments, debt, taxes, insurance, net worth, multi-currency, bank import (CSV/MT940/OFX), and scenario modeling. Privacy-first: encrypted at rest, runs entirely on your machine. |
 | [finance-assistant-locales](https://github.com/googlarz/finance-assistant-locales) | Country plugins for [finance-assistant](https://github.com/googlarz/finance-assistant) — tax rules, social contributions, filing deadlines, deduction logic. Bundled: Germany, UK, France, Netherlands, Poland. US in progress. |
@@ -61,4 +62,3 @@ If a project lives here, it solves something concrete and earns its place by bei
 - Built from personal use-cases
 - Iterated in public
 - Kept practical
-
