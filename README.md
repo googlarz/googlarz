@@ -36,6 +36,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 | [deterministic-workflow-builder](https://github.com/googlarz/deterministic-workflow-builder) | Compiles vague "make it deterministic" asks into a workflow package — typed `workflow.json` manifest, explicit shell steps, approval gates, contract checks, replayable audits, rollback hooks. AI sidecars stay advisory, never decisive. |
 | [deep-context](https://github.com/googlarz/deep-context) | Reads a folder (≤200 files), extracts cited per-file notes, cross-indexes references, runs a red-team pass and self-test calibration, and produces a one-page digest you can actually defend. |
 | [logic-audit](https://github.com/googlarz/logic-audit) | Adversarial cross-artifact auditor. Give it code+tests, spec+implementation, prompt+output, or data+chart — surfaces contradictions, broken timelines, identity drift, and unsupported claims. |
+| [codebase-onboarding](https://github.com/googlarz/codebase-onboarding) | Six-mode codebase investigator — maps architecture, hunts undocumented gotchas, generates a local dev guide and week-by-week ramp-up plan, then stays useful after onboarding: risk-check a file before touching it, catch convention violations before pushing, or map a ticket to the right files before writing a line. |
 
 **MCP Servers** — real services wired into AI assistants
 
@@ -60,3 +61,4 @@ If a project lives here, it solves something concrete and earns its place by bei
 - Built from personal use-cases
 - Iterated in public
 - Kept practical
+
