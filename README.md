@@ -48,7 +48,6 @@ If a project lives here, it solves something concrete and earns its place by bei
 | [signal-mcp](https://github.com/googlarz/signal-mcp) | The most complete Signal MCP server and CLI — 38 tools, quoted replies, @mentions, edit/delete, view-once, full conversation history with FTS5 search, Signal Desktop import. Runs 100% locally via signal-cli. |
 | [suunto-mcp](https://github.com/googlarz/suunto-mcp) | Talk to your Suunto watch through Claude — runs, hikes, sleep, HR drift, route maps, weekly training summaries. Handles OAuth refresh and FIT-file decoding so you don't have to. CLI + MCP, same backend. _(Awaiting API approval.)_ |
 | [vinted-mcp-cli](https://github.com/googlarz/vinted-mcp-cli) | CLI and MCP server for the Vinted marketplace — search listings, fetch items and sellers, compare prices across countries, pull trending feeds. Stealth-Chromium fallback for full fidelity. |
-| [betriebsrat](https://github.com/googlarz/betriebsrat) | Your employer has lawyers. Now you have this. German labour law for employees and works council members — grounded in gesetze-im-internet.de and the complete BetrVG, in plain German or English. Runs fully offline. |
 
 **Agents & Infrastructure**
 
