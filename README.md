@@ -26,7 +26,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 
 | | |
 |---|---|
-| [LLMessenger](https://github.com/googlarz/LLMessenger) | Local-first message-debt tracker for macOS — reads iMessage, Signal, Telegram, and Slack, and instead of an unread count shows who's still waiting on you. Drafts replies in your voice for one-tap approval, every claim cites its source messages. On-device AI, Apache 2.0. |
+| [LLMessenger](https://github.com/googlarz/LLMessenger) | Local-first message-debt tracker for macOS — reads iMessage, Signal, Telegram, and Slack, and instead of an unread count shows what needs your attention. Drafts replies in your voice for one-tap approval, every claim cites its source messages. On-device AI, Apache 2.0. |
 
 **AI Skills** — domain copilots that plug into Claude
 
