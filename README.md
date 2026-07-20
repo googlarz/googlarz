@@ -56,9 +56,15 @@ If a project lives here, it solves something concrete and earns its place by bei
 
 **MCP Servers** — real services wired into AI assistants
 
+**Proton Suite** — local-first Proton for Claude, mail + drive, never through a cloud relay
+
 | | |
 |---|---|
-| [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) | Local-first Proton Mail for Claude Desktop and terminal — read, search, draft, send, sync, manage, all through Proton Bridge. Never through a cloud relay. CLI + MCP, same backend. |
+| [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) ★23 | Read, search, draft, send, sync, and manage Proton Mail from Claude Desktop and terminal, all through Proton Bridge. CLI + MCP, same backend. |
+| [proton-drive-mcp](https://github.com/googlarz/proton-drive-mcp) | Upload, download, share, and manage your end-to-end encrypted Proton Drive files without leaving the conversation. |
+
+| | |
+|---|---|
 | [signal-mcp](https://github.com/googlarz/signal-mcp) | The most complete Signal MCP server and CLI — 38 tools, quoted replies, @mentions, edit/delete, view-once, full conversation history with FTS5 search, Signal Desktop import. Runs 100% locally via signal-cli. |
 | [suunto-mcp](https://github.com/googlarz/suunto-mcp) | Talk to your Suunto watch through Claude — runs, hikes, sleep, HR drift, route maps, weekly training summaries. Handles OAuth refresh and FIT-file decoding so you don't have to. CLI + MCP, same backend. _(Awaiting API approval.)_ |
 | [vinted-mcp-cli](https://github.com/googlarz/vinted-mcp-cli) | CLI and MCP server for the Vinted marketplace — search listings, fetch items and sellers, compare prices across countries, pull trending feeds. Stealth-Chromium fallback for full fidelity. |
