@@ -22,11 +22,18 @@ If a project lives here, it solves something concrete and earns its place by bei
 
 ## Repos
 
+**Flagship** — most active, most used
+
+| | |
+|---|---|
+| [finance-assistant](https://github.com/googlarz/finance-assistant) ★34 | Personal finance copilot — budgets, investments, debt, taxes, insurance, net worth, multi-currency, bank import (CSV/MT940/OFX), and scenario modeling. Privacy-first: encrypted at rest, runs entirely on your machine. |
+| [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) ★23 | Local-first Proton Mail for Claude Desktop and terminal — read, search, draft, send, sync, manage, all through Proton Bridge. Never through a cloud relay. CLI + MCP, same backend. |
+
 **Products** — apps that solve the whole problem end to end
 
 | | |
 |---|---|
-| [LLMessenger](https://github.com/googlarz/LLMessenger) | Local-first message-debt tracker for macOS — reads iMessage, Signal, Telegram, and Slack, and instead of an unread count shows what needs your attention. Drafts replies in your voice for one-tap approval, every claim cites its source messages. On-device AI, Apache 2.0. |
+| [LLMessenger](https://github.com/googlarz/LLMessenger) *(early WIP — not yet launched)* | Local-first message-debt tracker for macOS — reads iMessage, Signal, Telegram, and Slack, and instead of an unread count shows what needs your attention. Drafts replies in your voice for one-tap approval, every claim cites its source messages. On-device AI, Apache 2.0. |
 
 **AI Skills** — domain copilots that plug into Claude
 
