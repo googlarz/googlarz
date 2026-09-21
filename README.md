@@ -26,8 +26,8 @@ If a project lives here, it solves something concrete and earns its place by bei
 
 | | |
 |---|---|
-| [finance-assistant](https://github.com/googlarz/finance-assistant) ★34 | Personal finance copilot — budgets, investments, debt, taxes, insurance, net worth, multi-currency, bank import (CSV/MT940/OFX), and scenario modeling. Privacy-first: encrypted at rest, runs entirely on your machine. |
-| [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) ★23 | Local-first Proton Mail for Claude Desktop and terminal — read, search, draft, send, sync, manage, all through Proton Bridge. Never through a cloud relay. CLI + MCP, same backend. |
+| [finance-assistant](https://github.com/googlarz/finance-assistant) ★44 | Personal finance copilot — budgets, investments, debt, taxes, insurance, net worth, multi-currency, bank import (CSV/MT940/OFX), and scenario modeling. Privacy-first: encrypted at rest, runs entirely on your machine. |
+| [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) ★44 | Local-first Proton Mail for Claude Desktop and terminal — read, search, draft, send, sync, manage, all through Proton Bridge. Never through a cloud relay. CLI + MCP, same backend. |
 
 **Products** — apps that solve the whole problem end to end
 
@@ -54,6 +54,11 @@ If a project lives here, it solves something concrete and earns its place by bei
 | [deep-context](https://github.com/googlarz/deep-context) | Reads a folder (≤200 files), extracts cited per-file notes, cross-indexes references, runs a red-team pass and self-test calibration, and produces a one-page digest you can actually defend. |
 | [logic-audit](https://github.com/googlarz/logic-audit) | Adversarial cross-artifact auditor. Give it code+tests, spec+implementation, prompt+output, or data+chart — surfaces contradictions, broken timelines, identity drift, and unsupported claims. |
 | [codebase-onboarding](https://github.com/googlarz/codebase-onboarding) | Stop guessing on an unfamiliar codebase. Know what to avoid before you break something, what the team actually cares about (not what the README claims), and which files need a senior engineer watching. Technical users get a working local setup and a week-by-week ramp-up plan grounded in actual findings. Non-technical users get a plain-language architecture map and an executive brief they can share. Then stays useful mid-work: know a file's risk before you touch it, get your PR description written for you, understand a ticket before you write a line. |
+| [suunto-gym](https://github.com/googlarz/suunto-gym) | Personalized strength-training coach — progressive-overload programming, gated by Suunto recovery data (HRV, sleep) before you train and adapted by what you actually lifted after. Cross-checks your health context so programming never contradicts it. |
+| [betriebsrat](https://github.com/googlarz/betriebsrat) | German labour law for employees and works council members — grounded in gesetze-im-internet.de and the complete BetrVG, in plain German or English. |
+| [whats-next](https://github.com/googlarz/whats-next) | Persona-based strategic product analysis — five users, three recommendation layers, and elevation moves for what to build next. |
+| [vibe-coder-kit](https://github.com/googlarz/vibe-coder-kit) | Guardrails and memory for non-developers building with Claude — 27 skills, from first idea to shipped. |
+| [context-handoff](https://github.com/googlarz/context-handoff) | Continue any Claude conversation exactly where you left off — decisions, reasoning, work state, and behavioral contracts restored in a new session. |
 
 **MCP Servers** — real services wired into AI assistants
 
@@ -61,13 +66,13 @@ If a project lives here, it solves something concrete and earns its place by bei
 
 | | |
 |---|---|
-| [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) ★23 | Read, search, draft, send, sync, and manage Proton Mail from Claude Desktop and terminal, all through Proton Bridge. CLI + MCP, same backend. |
+| [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) ★44 | Read, search, draft, send, sync, and manage Proton Mail from Claude Desktop and terminal, all through Proton Bridge. CLI + MCP, same backend. |
 | [proton-drive-mcp](https://github.com/googlarz/proton-drive-mcp) | Upload, download, share, and manage your end-to-end encrypted Proton Drive files without leaving the conversation. |
 
 | | |
 |---|---|
 | [signal-mcp](https://github.com/googlarz/signal-mcp) | The most complete Signal MCP server and CLI — 38 tools, quoted replies, @mentions, edit/delete, view-once, full conversation history with FTS5 search, Signal Desktop import. Runs 100% locally via signal-cli. |
-| [suunto-mcp](https://github.com/googlarz/suunto-mcp) | Talk to your Suunto watch through Claude — runs, hikes, sleep, HR drift, route maps, weekly training summaries. Handles OAuth refresh and FIT-file decoding so you don't have to. CLI + MCP, same backend. _(Awaiting API approval.)_ |
+| [suunto-mcp](https://github.com/googlarz/suunto-mcp) | Talk to your Suunto watch through Claude — runs, hikes, sleep, HR drift, route maps, weekly training summaries. Handles OAuth refresh and FIT-file decoding so you don't have to. CLI + MCP, same backend. |
 | [vinted-mcp-cli](https://github.com/googlarz/vinted-mcp-cli) | CLI and MCP server for the Vinted marketplace — search listings, fetch items and sellers, compare prices across countries, pull trending feeds. Stealth-Chromium fallback for full fidelity. |
 
 **Agents & Infrastructure**
@@ -75,10 +80,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 | | |
 |---|---|
 | [agents-sync](https://github.com/googlarz/agents-sync) | Single source of truth for AI coding context — keeps `CLAUDE.md`, `AGENTS.md`, `GEMINI.md`, `.cursorrules`, and Copilot instructions consistent across Claude Code, Cursor, Copilot, Gemini, and more as your stack evolves. |
-| [scope](https://github.com/googlarz/scope) | Tree-sitter Rust CLI that maps a codebase's structure for LLM agents — what calls what, what tests cover what, what a change touches — before you edit anything. Know before you touch. |
-| [agent-skills](https://github.com/googlarz/agent-skills) | Fork of [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) with WIP enhancements: observability skill, CI skill validator, and agent persona integration. Production-grade engineering workflows packaged so AI coding agents follow them every phase — spec, plan, build, test, review, ship. |
 | [proactive-claw](https://github.com/googlarz/proactive-claw) | Proactive execution engine for OpenClaw — learns your work style and surfaces prep blocks and follow-ups before you think to ask. Runs fully locally. |
-| [stapler](https://github.com/googlarz/stapler) | Fork of [paperclip](https://github.com/paperclipai/paperclip) — self-hosted AI org with per-agent semantic memory (auto-tagged, time-scoped), shared company memory, wiki pages that survive runs, and adapters for Claude, Gemini, Ollama, Codex, OpenCode, Cursor. |
 | [claude-code-commands](https://github.com/googlarz/claude-code-commands) | Complete reference of every `/` command in Claude Code (v2.1.92) — built-ins, bundled skills, hidden/dev-only, removed, plus visibility and enablement rules. Extracted from the macOS binary. |
 
 ## Notes
