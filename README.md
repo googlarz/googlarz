@@ -33,7 +33,7 @@ If a project lives here, it solves something concrete and earns its place by bei
 
 | | |
 |---|---|
-| [LLMessenger](https://github.com/googlarz/LLMessenger) *(early WIP — not yet launched)* | Local-first message-debt tracker for macOS — reads iMessage, Signal, Telegram, and Slack, and instead of an unread count shows what needs your attention. Drafts replies in your voice for one-tap approval, every claim cites its source messages. On-device AI, Apache 2.0. |
+| [LLMessenger](https://github.com/googlarz/LLMessenger) | Notification firewall and communications agent for macOS — reads iMessage, Signal, Telegram, and Slack, silences the noise, and turns everything else into a 30-second digest. Drafts replies, follow-ups, and RSVPs in your voice for one-tap approval; every claim cites its source messages. On-device AI, free, open source, Apache 2.0. |
 
 **AI Skills** — domain copilots that plug into Claude
 
