@@ -31,7 +31,7 @@ I'm a product person in Berlin, and I build exactly that: **local-first tools th
 
 ## More
 
-- **Personal skills for Claude:** [health-skill](https://github.com/googlarz/health-skill) · [fashion-skill](https://github.com/googlarz/fashion-skill) · [personal-inbox](https://github.com/googlarz/personal-inbox) · [betriebsrat](https://github.com/googlarz/betriebsrat)
+- **Personal skills for Claude:** [health-skill](https://github.com/googlarz/health-skill) · [fashion-skill](https://github.com/googlarz/fashion-skill) · [personal-inbox](https://github.com/googlarz/personal-inbox)
 - **Skills for working with Claude Code:** [delegate](https://github.com/googlarz/delegate) · [vibe-safe](https://github.com/googlarz/vibe-safe) · [logic-audit](https://github.com/googlarz/logic-audit) · [deep-context](https://github.com/googlarz/deep-context) · [agents-sync](https://github.com/googlarz/agents-sync)
 - **Other MCP servers:** [proton-drive-mcp](https://github.com/googlarz/proton-drive-mcp) · [vinted-mcp-cli](https://github.com/googlarz/vinted-mcp-cli)
 
