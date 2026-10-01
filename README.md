@@ -10,8 +10,6 @@ I'm a product person in Berlin, and I build exactly that: **local-first tools th
 
 **[finance-assistant](https://github.com/googlarz/finance-assistant)**: personal finance copilot for Claude Code. Bank imports, country-specific tax rules, scenario modelling. Local-first, 1,100+ test functions.
 
-<img src="https://raw.githubusercontent.com/googlarz/finance-assistant/main/assets/demo.svg" alt="Terminal demo of finance-assistant answering a finance question in Claude Code" width="640">
-
 **[signal-mcp](https://github.com/googlarz/signal-mcp)**: Signal for Claude via signal-cli, with local history and full-text search. 79 MCP tools. On PyPI.
 
 **[suunto-mcp](https://github.com/googlarz/suunto-mcp)**: ask Claude about your Suunto workouts, sleep and recovery, and push workouts back to the watch. 24 MCP tools. On npm.
