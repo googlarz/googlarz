@@ -2,7 +2,7 @@
 
 Would you give an AI your inbox, your bank statements and your lab results? Only if none of it ever leaves your machine.
 
-I'm a product person in Berlin, and I build exactly that: **local-first tools that let Claude work with your real data**: mail, messages, money, health, training.
+I'm a product guy in Berlin, and I build exactly that: **local-first tools that let Claude work with your real data**: mail, messages, money, health, training.
 
 ## Start here
 
