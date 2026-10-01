@@ -1,89 +1,40 @@
-# Hi, I'm Dawid
+# Dawid Piaskowski
 
-Product guy from Berlin.
+Would you give an AI your inbox, your bank statements and your lab results? Only if none of it ever leaves your machine.
 
-I build tools for myself first, then refine what keeps proving useful.
-Most things here started from a real need: reducing friction, saving time, or making a recurring task easier to run.
+I'm a product person in Berlin, and I build exactly that: **local-first tools that let Claude work with your real data**: mail, messages, money, health, training.
 
-This profile is a working lab for practical software.
-You'll find experiments and shipped iterations around AI assistants, automation, and workflow tooling, with a focus on things that are actually usable day to day.
+## Start here
 
-I care about products that stay clear under pressure: clean flows, sensible defaults, and behavior you can trust.
-If a project lives here, it solves something concrete and earns its place by being useful in real use.
+**[proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client)**: Proton Mail for Claude via Proton Bridge. Up to 96 MCP tools plus a CLI on the same backend. Read, search, draft, send, with read-only and send-to-self modes. About 10k npm downloads a month.
 
-- Useful over flashy.
-- Fast iteration, high standards.
-- Simple where it matters, robust where it counts.
+**[finance-assistant](https://github.com/googlarz/finance-assistant)**: personal finance copilot for Claude Code. Bank imports, country-specific tax rules, scenario modelling. Local-first, 1,100+ test functions.
 
-## Current focus
-- AI skills and copilots for real workflows
-- MCP servers that connect AI to local tools
-- Infrastructure for autonomous agents
+<img src="https://raw.githubusercontent.com/googlarz/finance-assistant/main/assets/demo.svg" alt="Terminal demo of finance-assistant answering a finance question in Claude Code" width="640">
 
-## Repos
+**[signal-mcp](https://github.com/googlarz/signal-mcp)**: Signal for Claude via signal-cli, with local history and full-text search. 79 MCP tools. On PyPI.
 
-**Flagship** — most active, most used
+**[suunto-mcp](https://github.com/googlarz/suunto-mcp)**: ask Claude about your Suunto workouts, sleep and recovery, and push workouts back to the watch. 24 MCP tools. On npm.
 
-| | |
-|---|---|
-| [finance-assistant](https://github.com/googlarz/finance-assistant) ★44 | Personal finance copilot — budgets, investments, debt, taxes, insurance, net worth, multi-currency, bank import (CSV/MT940/OFX), and scenario modeling. Privacy-first: encrypted at rest, runs entirely on your machine. |
-| [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) ★44 | Local-first Proton Mail for Claude Desktop and terminal — read, search, draft, send, sync, manage, all through Proton Bridge. Never through a cloud relay. CLI + MCP, same backend. |
+**[LLMessenger](https://github.com/googlarz/LLMessenger)**: macOS app that digests iMessage, Signal, Telegram and Slack on-device and drafts replies for your approval.
 
-**Products** — apps that solve the whole problem end to end
+<img src="https://raw.githubusercontent.com/googlarz/LLMessenger/main/docs/screenshot.png" alt="LLMessenger digest of messages from several chat apps" width="640">
 
-| | |
-|---|---|
-| [LLMessenger](https://github.com/googlarz/LLMessenger) | Notification firewall and communications agent for macOS — reads iMessage, Signal, Telegram, and Slack, silences the noise, and turns everything else into a 30-second digest. Drafts replies, follow-ups, and RSVPs in your voice for one-tap approval; every claim cites its source messages. On-device AI, free, open source, Apache 2.0. |
+## Recently shipped
 
-**AI Skills** — domain copilots that plug into Claude
+<!-- RECENT:START -->
+<!-- RECENT:END -->
 
-| | |
-|---|---|
-| [delegate](https://github.com/googlarz/delegate) | Turns a recurring job into a self-verifying playbook skill — interviews you about it, writes it as a runnable `SKILL.md`, runs it once, builds a reusable toolbox, and adds an evidence-based Definition of Done. If the same check keeps failing across runs, it stops patching the output and proposes changing who does what instead. Batches of similar items can run in parallel. |
-| [vibe-safe](https://github.com/googlarz/vibe-safe) | Active session guardian for non-technical contributors (PMs, designers) shipping AI-assisted code in shared codebases. 44 risk categories: credentials outside your diff, API keys in frontend files, SQL injection, XSS, shell injection, secrets in logs, security header regressions, rate limiting gaps, and more. Developer-defined contracts via `.vibesafe`. Pre-commit hook + GitHub/GitLab/Bitbucket CI — every flag cites file:line. |
-| [collaborate](https://github.com/googlarz/collaborate) | Multi-person document writing skill for Claude — each contributor takes a turn, Claude briefs the next person on what changed, what was tried, and what they need to focus on. Parallel section ownership, structured critique, round robin review. Notifications via Signal or Slack. |
-| [personal-inbox](https://github.com/googlarz/personal-inbox) | Starter skill that feeds your other personal skills real context — scans connected mail and a drop folder, classifies against categories you define, extracts to searchable digests, hands filed items to `finance-assistant`, `health-skill`, or whatever owns that domain. Not inbox-zero: only what matches a category you defined gets pulled in. Discovery scan proposes categories from your actual documents instead of a blind guess. Read-only mail, propose-only actions, prompt-injection hardened — flagged content never auto-files, even at high confidence. |
-| [finance-assistant](https://github.com/googlarz/finance-assistant) | Personal finance copilot — budgets, investments, debt, taxes, insurance, net worth, multi-currency, bank import (CSV/MT940/OFX), and scenario modeling. Privacy-first: encrypted at rest, runs entirely on your machine. |
-| [finance-assistant-locales](https://github.com/googlarz/finance-assistant-locales) | Country plugins for [finance-assistant](https://github.com/googlarz/finance-assistant) — tax rules, social contributions, filing deadlines, deduction logic. Bundled: Germany, UK, France, Netherlands, Poland. US in progress. |
-| [health-skill](https://github.com/googlarz/health-skill) | Persistent health workspace for Claude — labs, meds, training, sleep, and family history linked so every conversation builds on the last. Doubles as a longevity companion with check-ins, screenings, and automatic watch sync. |
-| [fashion-skill](https://github.com/googlarz/fashion-skill) | Personal AI stylist that actually knows you — derives your color system and fit rules from photos, imports your Zalando/Amazon order history, plans outfits against your calendar and weather, runs Buy/Skip/Only-if checks in-store, audits unworn pieces, and generates Vinted listings to resell them. Honest, not harsh. |
-| [math-skill](https://github.com/googlarz/math-skill) | Solver-first math skill — maps the problem, picks the method, derives step-by-step, then double-checks with SymPy before answering. Reads typed problems, photos, whiteboards, and PDFs. |
-| [pollen](https://github.com/googlarz/pollen) | Personalised pollen & hay fever skill for Claude Code — real-time pollen levels, window advisor, attack logging, cumulative 72h exposure, wearable HRV correlation. |
-| [claude-assistant](https://github.com/googlarz/claude-assistant) | Turns Claude Code conversations into context-aware Google Calendar entries — links back to the originating transcript, detects conflicts, finds free slots, auto-inserts prep blocks. The why is right there when the reminder fires. |
-| [deterministic-workflow-builder](https://github.com/googlarz/deterministic-workflow-builder) | Compiles vague "make it deterministic" asks into a workflow package — typed `workflow.json` manifest, explicit shell steps, approval gates, contract checks, replayable audits, rollback hooks. AI sidecars stay advisory, never decisive. |
-| [deep-context](https://github.com/googlarz/deep-context) | Reads a folder (≤200 files), extracts cited per-file notes, cross-indexes references, runs a red-team pass and self-test calibration, and produces a one-page digest you can actually defend. |
-| [logic-audit](https://github.com/googlarz/logic-audit) | Adversarial cross-artifact auditor. Give it code+tests, spec+implementation, prompt+output, or data+chart — surfaces contradictions, broken timelines, identity drift, and unsupported claims. |
-| [codebase-onboarding](https://github.com/googlarz/codebase-onboarding) | Stop guessing on an unfamiliar codebase. Know what to avoid before you break something, what the team actually cares about (not what the README claims), and which files need a senior engineer watching. Technical users get a working local setup and a week-by-week ramp-up plan grounded in actual findings. Non-technical users get a plain-language architecture map and an executive brief they can share. Then stays useful mid-work: know a file's risk before you touch it, get your PR description written for you, understand a ticket before you write a line. |
-| [suunto-gym](https://github.com/googlarz/suunto-gym) | Personalized strength-training coach — progressive-overload programming, gated by Suunto recovery data (HRV, sleep) before you train and adapted by what you actually lifted after. Cross-checks your health context so programming never contradicts it. |
-| [betriebsrat](https://github.com/googlarz/betriebsrat) | German labour law for employees and works council members — grounded in gesetze-im-internet.de and the complete BetrVG, in plain German or English. |
-| [whats-next](https://github.com/googlarz/whats-next) | Persona-based strategic product analysis — five users, three recommendation layers, and elevation moves for what to build next. |
-| [vibe-coder-kit](https://github.com/googlarz/vibe-coder-kit) | Guardrails and memory for non-developers building with Claude — 27 skills, from first idea to shipped. |
-| [context-handoff](https://github.com/googlarz/context-handoff) | Continue any Claude conversation exactly where you left off — decisions, reasoning, work state, and behavioral contracts restored in a new session. |
+## More
 
-**MCP Servers** — real services wired into AI assistants
+- **Personal skills for Claude:** [health-skill](https://github.com/googlarz/health-skill) · [fashion-skill](https://github.com/googlarz/fashion-skill) · [personal-inbox](https://github.com/googlarz/personal-inbox) · [betriebsrat](https://github.com/googlarz/betriebsrat)
+- **Skills for working with Claude Code:** [delegate](https://github.com/googlarz/delegate) · [vibe-safe](https://github.com/googlarz/vibe-safe) · [logic-audit](https://github.com/googlarz/logic-audit) · [deep-context](https://github.com/googlarz/deep-context) · [agents-sync](https://github.com/googlarz/agents-sync)
+- **Other MCP servers:** [proton-drive-mcp](https://github.com/googlarz/proton-drive-mcp) · [vinted-mcp-cli](https://github.com/googlarz/vinted-mcp-cli)
 
-**Proton Suite** — local-first Proton for Claude, mail + drive, never through a cloud relay
+## How I build
 
-| | |
-|---|---|
-| [proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client) ★44 | Read, search, draft, send, sync, and manage Proton Mail from Claude Desktop and terminal, all through Proton Bridge. CLI + MCP, same backend. |
-| [proton-drive-mcp](https://github.com/googlarz/proton-drive-mcp) | Upload, download, share, and manage your end-to-end encrypted Proton Drive files without leaving the conversation. |
+- Private by default: local storage, no telemetry, read-only modes where possible.
+- Built for my own use first, then released once it holds up.
+- Honest about limits: finance and health tools are assistants, not licensed advice.
 
-| | |
-|---|---|
-| [signal-mcp](https://github.com/googlarz/signal-mcp) | The most complete Signal MCP server and CLI — 38 tools, quoted replies, @mentions, edit/delete, view-once, full conversation history with FTS5 search, Signal Desktop import. Runs 100% locally via signal-cli. |
-| [suunto-mcp](https://github.com/googlarz/suunto-mcp) | Talk to your Suunto watch through Claude — runs, hikes, sleep, HR drift, route maps, weekly training summaries. Handles OAuth refresh and FIT-file decoding so you don't have to. CLI + MCP, same backend. |
-| [vinted-mcp-cli](https://github.com/googlarz/vinted-mcp-cli) | CLI and MCP server for the Vinted marketplace — search listings, fetch items and sellers, compare prices across countries, pull trending feeds. Stealth-Chromium fallback for full fidelity. |
-
-**Agents & Infrastructure**
-
-| | |
-|---|---|
-| [agents-sync](https://github.com/googlarz/agents-sync) | Single source of truth for AI coding context — keeps `CLAUDE.md`, `AGENTS.md`, `GEMINI.md`, `.cursorrules`, and Copilot instructions consistent across Claude Code, Cursor, Copilot, Gemini, and more as your stack evolves. |
-| [proactive-claw](https://github.com/googlarz/proactive-claw) | Proactive execution engine for OpenClaw — learns your work style and surfaces prep blocks and follow-ups before you think to ask. Runs fully locally. |
-| [claude-code-commands](https://github.com/googlarz/claude-code-commands) | Complete reference of every `/` command in Claude Code (v2.1.92) — built-ins, bundled skills, hidden/dev-only, removed, plus visibility and enablement rules. Extracted from the macOS binary. |
-
-## Notes
-- Built from personal use-cases
-- Iterated in public
-- Kept practical
+[LinkedIn](https://www.linkedin.com/in/dawidpiaskowski) · [All repositories](https://github.com/googlarz?tab=repositories)
