@@ -21,10 +21,10 @@ I'm a product guy in Berlin, and I build exactly that: **local-first tools that 
 ## Recently shipped
 
 <!-- RECENT:START -->
-- [proton-drive-mcp v1.5.0](https://github.com/googlarz/proton-drive-mcp/releases/tag/v1.5.0) — MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and m... · 2026-10-01
+- [proton-mail-bridge-client v2.1.45](https://github.com/googlarz/proton-mail-bridge-client/releases/tag/v2.1.45) — Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize ma... · 2026-10-02
+- [proton-drive-mcp v1.5.1](https://github.com/googlarz/proton-drive-mcp/releases/tag/v1.5.1) — MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and m... · 2026-10-02
+- [suunto-mcp v0.15.2](https://github.com/googlarz/suunto-mcp/releases/tag/v0.15.2) — MCP server that connects your Suunto watch data to Claude and other AI assistants · 2026-10-02
 - [signal-mcp v1.39.0](https://github.com/googlarz/signal-mcp/releases/tag/v1.39.0) — Ask Claude about your Signal conversations. Persistent history, full-text search, and complete si... · 2026-09-30
-- [proton-mail-bridge-client v2.1.43](https://github.com/googlarz/proton-mail-bridge-client/releases/tag/v2.1.43) — Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize ma... · 2026-09-30
-- [suunto-mcp v0.15.1](https://github.com/googlarz/suunto-mcp/releases/tag/v0.15.1) — MCP server that connects your Suunto watch data to Claude and other AI assistants · 2026-09-29
 - [suunto-gym v0.1.0](https://github.com/googlarz/suunto-gym/releases/tag/v0.1.0) — Personalized strength-training coach for Claude Code — progressive-overload programming, Suunto r... · 2026-09-29
 - [LLMessenger v2.3.3](https://github.com/googlarz/LLMessenger/releases/tag/v2.3.3) — Notification firewall for your Mac — AI briefs for iMessage, Signal, Telegram & Slack. On-device... · 2026-09-28
 <!-- RECENT:END -->
