@@ -21,7 +21,7 @@ I'm a product guy in Berlin, and I build exactly that: **local-first tools that 
 ## Recently shipped
 
 <!-- RECENT:START -->
-- [proton-mail-bridge-client v2.15.0](https://github.com/googlarz/proton-mail-bridge-client/releases/tag/v2.15.0) — Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize ma... · 2026-10-21
+- [proton-mail-bridge-client v2.15.2](https://github.com/googlarz/proton-mail-bridge-client/releases/tag/v2.15.2) — Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize ma... · 2026-10-22
 - [signal-mcp v1.43.3](https://github.com/googlarz/signal-mcp/releases/tag/v1.43.3) — Signal for AI assistants: an MCP server + CLI with searchable local message history, groups, poll... · 2026-10-21
 - [suunto-mcp v0.20.0](https://github.com/googlarz/suunto-mcp/releases/tag/v0.20.0) — MCP server that connects your Suunto watch data to Claude and other AI assistants · 2026-10-21
 - [vinted-mcp-cli v1.6.3](https://github.com/googlarz/vinted-mcp-cli/releases/tag/v1.6.3) — Browse, search, and manage Vinted listings from Claude or the terminal — buy, sell, track items,... · 2026-10-07
