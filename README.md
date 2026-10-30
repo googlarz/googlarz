@@ -4,19 +4,28 @@ Would you give an AI your inbox, your bank statements and your lab results? Only
 
 I'm a product guy in Berlin, and I build exactly that: **local-first tools that let Claude work with your real data**: mail, messages, money, health, training.
 
+![npm downloads](https://img.shields.io/npm/dm/proton-mail-bridge-client?label=proton-mail-bridge-client%20downloads%2Fmonth) ![PyPI](https://img.shields.io/pypi/v/signal-mcp?label=signal-mcp) ![npm](https://img.shields.io/npm/v/suunto-mcp?label=suunto-mcp)
+
+**5 MCP servers · 96 tools in the biggest one · ~10k npm downloads a month · everything runs on your machine**
+
+<p align="center">
+  <a href="https://github.com/googlarz/duo">
+    <img src="https://raw.githubusercontent.com/googlarz/duo/main/assets/duo-panel-running.png" alt="duo: a live panel of every agent Claude Code spawns, with model, effort, steps, tokens and usage limit" width="709">
+  </a>
+  <br>
+  <sub><b><a href="https://github.com/googlarz/duo">duo</a></b>: see every agent Claude spawns, live.</sub>
+</p>
+
 ## Start here
 
-**[proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client)**: Proton Mail for Claude via Proton Bridge. Up to 96 MCP tools plus a CLI on the same backend. Read, search, draft, send, with read-only and send-to-self modes. About 10k npm downloads a month.
-
-**[finance-assistant](https://github.com/googlarz/finance-assistant)**: personal finance copilot for Claude Code. Bank imports, country-specific tax rules, scenario modelling. Local-first, 1,100+ test functions.
-
-**[signal-mcp](https://github.com/googlarz/signal-mcp)**: Signal for Claude via signal-cli, with local history and full-text search. 79 MCP tools. On PyPI.
-
-**[suunto-mcp](https://github.com/googlarz/suunto-mcp)**: ask Claude about your Suunto workouts, sleep and recovery, and push workouts back to the watch. 24 MCP tools. On npm.
-
-**[duo](https://github.com/googlarz/duo)**: Claude Code plugin that shows every agent Claude spawns, live: task, model, effort, steps, tokens and how much of your usage limit is left. Includes a flow that picks a model and effort per agent. A fork of JohnnyVizz's claude-kit.
-
-**[LLMessenger](https://github.com/googlarz/LLMessenger)**: macOS app that digests iMessage, Signal, Telegram and Slack on-device and drafts replies for your approval.
+| Project | What it does | Get it |
+| --- | --- | --- |
+| **[proton-mail-bridge-client](https://github.com/googlarz/proton-mail-bridge-client)** | Proton Mail for Claude via Proton Bridge. Up to 96 MCP tools plus a CLI. Read, search, draft, send, with read-only and send-to-self modes. | `npm i -g proton-mail-bridge-client` |
+| **[finance-assistant](https://github.com/googlarz/finance-assistant)** | Personal finance copilot for Claude Code. Bank imports, country-specific tax rules, scenario modelling. 1,100+ test functions. | [see README](https://github.com/googlarz/finance-assistant) |
+| **[signal-mcp](https://github.com/googlarz/signal-mcp)** | Signal for Claude via signal-cli, with local history and full-text search. 79 MCP tools. | `pipx install signal-mcp` |
+| **[suunto-mcp](https://github.com/googlarz/suunto-mcp)** | Ask Claude about your Suunto workouts, sleep and recovery, and push workouts back to the watch. 24 MCP tools. | `npx -y suunto-mcp` |
+| **[duo](https://github.com/googlarz/duo)** | Claude Code plugin that shows every agent Claude spawns: task, model, effort, steps, tokens, usage limit. Fork of JohnnyVizz's claude-kit. | `/plugin marketplace add googlarz/duo` |
+| **[LLMessenger](https://github.com/googlarz/LLMessenger)** | macOS app that digests iMessage, Signal, Telegram and Slack on-device and drafts replies for your approval. | [see README](https://github.com/googlarz/LLMessenger) |
 
 ## Recently shipped
 
