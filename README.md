@@ -21,12 +21,12 @@ I'm a product guy in Berlin, and I build exactly that: **local-first tools that 
 ## Recently shipped
 
 <!-- RECENT:START -->
-- [proton-mail-bridge-client v2.16.2](https://github.com/googlarz/proton-mail-bridge-client/releases/tag/v2.16.2) — Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize ma... · 2026-10-29
+- [proton-mail-bridge-client v2.17.1](https://github.com/googlarz/proton-mail-bridge-client/releases/tag/v2.17.1) — Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize ma... · 2026-10-30
+- [finance-assistant v4.2.1](https://github.com/googlarz/finance-assistant/releases/tag/v4.2.1) — Personal finance copilot — real math, not AI guesses. 6 locales · 13 bank formats · Monte Carlo F... · 2026-10-30
+- [finance-assistant-locales v2.6.0](https://github.com/googlarz/finance-assistant-locales/releases/tag/v2.6.0) — Locale plugins for Finance Assistant — country-specific tax rules, social contributions, filing d... · 2026-10-30
+- [suunto-mcp v0.21.0](https://github.com/googlarz/suunto-mcp/releases/tag/v0.21.0) — MCP server that connects your Suunto watch data to Claude and other AI assistants · 2026-10-29
 - [signal-mcp v1.43.3](https://github.com/googlarz/signal-mcp/releases/tag/v1.43.3) — Signal for AI assistants: an MCP server + CLI with searchable local message history, groups, poll... · 2026-10-21
-- [suunto-mcp v0.20.0](https://github.com/googlarz/suunto-mcp/releases/tag/v0.20.0) — MCP server that connects your Suunto watch data to Claude and other AI assistants · 2026-10-21
 - [vinted-mcp-cli v1.6.3](https://github.com/googlarz/vinted-mcp-cli/releases/tag/v1.6.3) — Browse, search, and manage Vinted listings from Claude or the terminal — buy, sell, track items,... · 2026-10-07
-- [proton-drive-mcp v1.5.2](https://github.com/googlarz/proton-drive-mcp/releases/tag/v1.5.2) — MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and m... · 2026-10-05
-- [suunto-gym v0.1.0](https://github.com/googlarz/suunto-gym/releases/tag/v0.1.0) — Personalized strength-training coach for Claude Code — progressive-overload programming, Suunto r... · 2026-09-29
 <!-- RECENT:END -->
 
 ## More
