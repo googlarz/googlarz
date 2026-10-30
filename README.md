@@ -14,9 +14,9 @@ I'm a product guy in Berlin, and I build exactly that: **local-first tools that 
 
 **[suunto-mcp](https://github.com/googlarz/suunto-mcp)**: ask Claude about your Suunto workouts, sleep and recovery, and push workouts back to the watch. 24 MCP tools. On npm.
 
-**[LLMessenger](https://github.com/googlarz/LLMessenger)**: macOS app that digests iMessage, Signal, Telegram and Slack on-device and drafts replies for your approval.
+**[duo](https://github.com/googlarz/duo)**: Claude Code plugin that shows every agent Claude spawns, live: task, model, effort, steps, tokens and how much of your usage limit is left. Includes a flow that picks a model and effort per agent. A fork of JohnnyVizz's claude-kit.
 
-<img src="https://raw.githubusercontent.com/googlarz/LLMessenger/main/docs/screenshot.png" alt="LLMessenger digest of messages from several chat apps" width="640">
+**[LLMessenger](https://github.com/googlarz/LLMessenger)**: macOS app that digests iMessage, Signal, Telegram and Slack on-device and drafts replies for your approval.
 
 ## Recently shipped
 
@@ -31,8 +31,8 @@ I'm a product guy in Berlin, and I build exactly that: **local-first tools that 
 
 ## More
 
-- **Personal skills for Claude:** [health-skill](https://github.com/googlarz/health-skill) · [fashion-skill](https://github.com/googlarz/fashion-skill) · [personal-inbox](https://github.com/googlarz/personal-inbox)
-- **Skills for working with Claude Code:** [delegate](https://github.com/googlarz/delegate) · [vibe-safe](https://github.com/googlarz/vibe-safe) · [logic-audit](https://github.com/googlarz/logic-audit) · [deep-context](https://github.com/googlarz/deep-context) · [agents-sync](https://github.com/googlarz/agents-sync)
+- **Personal skills for Claude:** [health-skill](https://github.com/googlarz/health-skill) · [suunto-gym](https://github.com/googlarz/suunto-gym) · [fashion-skill](https://github.com/googlarz/fashion-skill) · [personal-inbox](https://github.com/googlarz/personal-inbox)
+- **Skills for working with Claude Code:** [duo](https://github.com/googlarz/duo) · [delegate](https://github.com/googlarz/delegate) · [vibe-safe](https://github.com/googlarz/vibe-safe) · [logic-audit](https://github.com/googlarz/logic-audit) · [deep-context](https://github.com/googlarz/deep-context) · [context-handoff](https://github.com/googlarz/context-handoff) · [agents-sync](https://github.com/googlarz/agents-sync)
 - **Other MCP servers:** [proton-drive-mcp](https://github.com/googlarz/proton-drive-mcp) · [vinted-mcp-cli](https://github.com/googlarz/vinted-mcp-cli)
 
 ## How I build
