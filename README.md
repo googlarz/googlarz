@@ -25,7 +25,6 @@ I'm a product guy in Berlin, and I build exactly that: **local-first tools that 
 | **[signal-mcp](https://github.com/googlarz/signal-mcp)** | Signal for Claude via signal-cli, with local history and full-text search. 79 MCP tools. | `pipx install signal-mcp` |
 | **[suunto-mcp](https://github.com/googlarz/suunto-mcp)** | Ask Claude about your Suunto workouts, sleep and recovery, and push workouts back to the watch. 24 MCP tools. | `npx -y suunto-mcp` |
 | **[duo](https://github.com/googlarz/duo)** | Claude Code plugin that shows every agent Claude spawns: task, model, effort, steps, tokens, usage limit. Fork of JohnnyVizz's claude-kit. | `/plugin marketplace add googlarz/duo` |
-| **[LLMessenger](https://github.com/googlarz/LLMessenger)** | macOS app that digests iMessage, Signal, Telegram and Slack on-device and drafts replies for your approval. | [see README](https://github.com/googlarz/LLMessenger) |
 
 ## Recently shipped
 
