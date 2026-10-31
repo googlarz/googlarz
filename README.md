@@ -10,10 +10,10 @@ I'm a product guy in Berlin, and I build exactly that: **local-first tools that 
 
 <p align="center">
   <a href="https://github.com/googlarz/duo">
-    <img src="https://raw.githubusercontent.com/googlarz/duo/main/assets/duo-panel-running.png" alt="duo: a live panel of every agent Claude Code spawns, with model, effort, steps, tokens and usage limit" width="709">
+    <img src="https://raw.githubusercontent.com/googlarz/duo/main/assets/duo-panel-overview.png" alt="duo: a panel of every agent Claude Code spawns, one card per task with its model and effort, status colours, and usage meters" width="640">
   </a>
   <br>
-  <sub><b><a href="https://github.com/googlarz/duo">duo</a></b>: see every agent Claude spawns, live.</sub>
+  <sub><b><a href="https://github.com/googlarz/duo">duo</a></b>: see every agent Claude spawns, live. Illustrative plan.</sub>
 </p>
 
 ## Start here
