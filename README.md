@@ -29,8 +29,8 @@ I'm a product guy in Berlin, and I build exactly that: **local-first tools that 
 ## Recently shipped
 
 <!-- RECENT:START -->
-- [proton-mail-bridge-client v2.19.0](https://github.com/googlarz/proton-mail-bridge-client/releases/tag/v2.19.0) — Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize ma... · 2026-11-05
-- [proton-drive-mcp v1.8.0](https://github.com/googlarz/proton-drive-mcp/releases/tag/v1.8.0) — MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and m... · 2026-11-01
+- [proton-drive-mcp v1.9.0](https://github.com/googlarz/proton-drive-mcp/releases/tag/v1.9.0) — MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and m... · 2026-11-07
+- [proton-mail-bridge-client v2.19.1](https://github.com/googlarz/proton-mail-bridge-client/releases/tag/v2.19.1) — Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize ma... · 2026-11-06
 - [finance-assistant v4.2.3](https://github.com/googlarz/finance-assistant/releases/tag/v4.2.3) — Personal finance copilot — real math, not AI guesses. 6 locales · 13 bank formats · Monte Carlo F... · 2026-10-30
 - [finance-assistant-locales v2.6.0](https://github.com/googlarz/finance-assistant-locales/releases/tag/v2.6.0) — Locale plugins for Finance Assistant — country-specific tax rules, social contributions, filing d... · 2026-10-30
 - [suunto-mcp v0.21.0](https://github.com/googlarz/suunto-mcp/releases/tag/v0.21.0) — MCP server that connects your Suunto watch data to Claude and other AI assistants · 2026-10-29
