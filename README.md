@@ -29,11 +29,11 @@ I'm a product guy in Berlin, and I build exactly that: **local-first tools that 
 ## Recently shipped
 
 <!-- RECENT:START -->
+- [proton-drive-mcp v1.13.0](https://github.com/googlarz/proton-drive-mcp/releases/tag/v1.13.0) — MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and m... · 2026-11-27
 - [proton-mail-bridge-client v2.21.0](https://github.com/googlarz/proton-mail-bridge-client/releases/tag/v2.21.0) — Local-first Proton Mail MCP server and CLI via Proton Bridge. Search, draft, send and organize ma... · 2026-11-25
 - [finance-assistant v4.3.0](https://github.com/googlarz/finance-assistant/releases/tag/v4.3.0) — Personal finance copilot — real math, not AI guesses. 6 locales · 36 bank formats · Monte Carlo F... · 2026-11-25
 - [suunto-mcp v1.3.1](https://github.com/googlarz/suunto-mcp/releases/tag/v1.3.1) — MCP server that connects your Suunto watch data to Claude and other AI assistants · 2026-11-23
 - [signal-mcp v1.43.5](https://github.com/googlarz/signal-mcp/releases/tag/v1.43.5) — Signal for AI assistants: an MCP server + CLI with searchable local message history, groups, poll... · 2026-11-23
-- [proton-drive-mcp v1.12.0](https://github.com/googlarz/proton-drive-mcp/releases/tag/v1.12.0) — MCP server and CLI that gives Claude full access to Proton Drive — upload, download, share, and m... · 2026-11-20
 - [LLMessenger v2.5.0](https://github.com/googlarz/LLMessenger/releases/tag/v2.5.0) — Notification firewall for your Mac — AI briefs for iMessage, Signal, Telegram & Slack. On-device... · 2026-11-10
 <!-- RECENT:END -->
 
